@@ -36,3 +36,10 @@
   }
 }
 /* end contauner */
+.ainmals {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  grid-auto-rows: 35rem;
+  margin-bottom: 100px;
+}
